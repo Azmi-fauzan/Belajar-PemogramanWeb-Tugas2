@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azmi Fauzan Alwan</title>
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Orbitron:wght@500&family=Rock+Salt&family=Black+Ops+One&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===== Banner dengan gambar transparan ===== */
+.banner {
+  position: relative;
+  background: url('https://cdn.vectorstock.com/i/1000v/95/79/dark-typography-background-vector-509579.jpg') center/cover no-repeat;
+  height: 150px; /* atau sesuai kebutuhan */
+  overflow: hidden;
+}
+
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* overlay transparan supaya tulisan terbaca */
+  background-color: rgba(0,0,0,0.3); 
+}
+
+.banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f2f2f2; /* warna teks – bisa diganti sesuai gambar */
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  z-index: 2;
+  text-align: center;
+}
+
+    /* ===== Styling kolom ===== */
+    .font-box {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .font-script {
+      font-family: 'Dancing Script', cursive;
+      color: #b30059;
+    }
+
+    .font-handwritten {
+      font-family: 'Rock Salt', cursive;
+      color: #006400;
+    }
+
+    .font-stencil {
+      font-family: 'Black Ops One', sans-serif;
+      color: #003366;
+    }
+
+    .font-digital {
+      font-family: 'Orbiton', sans-serif;
+      color: #333333;
+    }
+
+    .narrow-text {
+      max-width: 80%;
+      margin: 0 auto;
+      text-align: justify;
+      line-height: 1.7;
+    }
+
+    .font-script p { color: #b30059; }
+    .font-handwritten p { color: #006400; }
+    .font-stencil p { color: #003366; }
+    .font-digital p { color: #333333; }
+
+/* ===== Warna untuk judul h2 ===== */
+    .font-script h2 { color: #e60073; }
+    .font-handwritten h2 { color: #009933; }
+    .font-stencil h2 { color: #004080; }
+    .font-digital h2 { color: #ff6600; }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <!-- Gambar transparan hanya di bagian atas -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="banner">
+          <h1>Mengenal Font - Font</h1>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-5 font-box font-script">
+        <h2>Font-Script</h2>
+        <p class="narrow-text">
+          Font Script dirancang menyerupai tulisan tangan yang saling terhubung, memberi kesan elegan dan personal. 
+Font ini memiliki lekukan-lekukan halus yang menambah kesan alami dan kreatif. Meski terlihat indah, penggunaan font Script cukup terbatas karena tidak cocok untuk teks panjang atau tulisan dengan huruf kapital semua.
+Biasanya, font Script digunakan untuk desain yang bersifat dekoratif dan lebih artistik, seperti undangan pernikahan, logo, atau desain yang membutuhkan nuansa romantis dan unik.
+Contoh font Script: Brush Script MT, Palace Script MT, Pacifico.
+Fungsi: Undangan, desain logo kreatif, branding, tulisan dekoratif.
+        </p>
+      </div>
+
+      <div class="col-md-5 font-box font-handwritten">
+        <h2>Font-Handwritten</h2>
+        <p class="narrow-text">
+          Mirip dengan font Script, Handwritten adalah font yang dirancang menyerupai tulisan tangan manusia. 
+
+Font ini memberikan nuansa yang lebih kasual dan unik, serta lebih kreatif dalam pengaturannya. 
+
+Namun, seperti font Script, Handwritten tidak cocok digunakan dalam teks panjang, tetapi lebih cocok pada proyek desain yang membutuhkan sentuhan personal atau informal.
+
+Font Handwritten cocok digunakan pada sampul buku, poster, dan logo yang ingin memberi kesan lebih hangat dan personal.
+
+Contoh font Handwritten: Courgette, Cookie, Neucha.
+Fungsi: Desain kreatif, logo, sampul buku, dan materi promosi yang ingin memberi kesan personal dan ramah.
+        </p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-3">
+      <div class="col-md-5 font-box font-stencil">
+        <h2>Font-Stencil</h2>
+        <p class="narrow-text">
+         Meskipun terdengar kurang familiar, font Stencil sering digunakan oleh seniman dan desainer grafis untuk menciptakan desain yang kuat dan penuh karakter. 
+
+Nama Stencil berasal dari metode pencetakan yang digunakan dalam street art, di mana setiap huruf memiliki bentuk yang seragam, tetapi cukup kuat untuk membuat kesan yang mendalam.
+
+Jenis font ini sering digunakan untuk headline berita dan desain yang ingin memberikan kesan bold dan tegas. 
+
+Stencil memberikan nuansa industrial dan modern, yang cocok untuk digunakan dalam desain yang membutuhkan kesan kuat dan jelas.
+        </p>
+      </div>
+
+      <div class="col-md-5 font-box font-digital">
+        <h2>Font-Display</h2>
+        <p class="narrow-text">
+          Font Display memiliki ciri khas ukuran yang besar dan banyak dihiasi ornamen dekoratif, membuatnya ideal untuk menarik perhatian. 
+
+Font ini pertama kali muncul pada abad ke-19 dan digunakan dalam iklan agar tampak lebih mencolok dan menarik. 
+
+Oleh karena ukurannya yang besar dan hiasannya yang detail, font Display lebih mengutamakan keindahan visual daripada kemudahan keterbacaan.
+
+Biasanya, font Display digunakan dalam desain yang ingin memberikan kesan megah, berkelas, dan menonjol. 
+
+Meskipun tidak cocok untuk teks panjang, font ini sangat tepat untuk judul, header, atau elemen grafis lainnya yang membutuhkan perhatian lebih.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
